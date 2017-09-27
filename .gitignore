@@ -1,0 +1,9 @@
+# Webstorm
+.idea/
+
+# Terraform
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+.terraform/
+terraform.tfvars
