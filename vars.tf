@@ -18,3 +18,13 @@ variable "bucket" {
     name = ""
   }
 }
+
+variable "tfe-user" {
+  description = "Settings for TFE user"
+  type        = "map"
+
+  default = {
+    enabled = "0"
+    name    = "tfe-remote"
+  }
+}
